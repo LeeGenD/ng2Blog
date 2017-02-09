@@ -1,0 +1,17 @@
+<div>
+    <div class="left">
+        <p class="title">{{ post.title }}</p>
+        <p class="desc">{{ post.desc }}</p>
+    </div>
+    <div class="right">
+        <p class="info">
+            <span class="post-date">{{ post.date | date:'medium' }}</span>
+            <span class="like-num">
+                赞({{ post.likeNumber }})
+            </span>
+            <span class="comment-num">
+                评论({{ post.commentNumber }})
+            </span>
+        </p>
+    </div>
+</div>
