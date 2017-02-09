@@ -23,7 +23,7 @@ module.exports = webpackMerge(commonConfig, {
   plugins: [
     new webpack.NoErrorsPlugin(),
     new webpack.optimize.DedupePlugin(),
-    // 此插件会报错
+    // 此插件只支持es5
     new webpack.optimize.UglifyJsPlugin({ // https://github.com/angular/angular/issues/10618
       mangle: {
         keep_fnames: true
