@@ -1,3 +1,24 @@
 main {
 
 }
+.body-wrap {
+    overflow: hidden;
+    border: solid 1px #efefef;
+    width: 90%;
+    margin: 40px auto;
+}
+.body-wrap .main {
+    float: left;
+    margin-right: 300px;
+}
+.body-wrap .side {
+    float: left;
+    width: 260px;
+    height: 200px;
+    border-left: solid 1px #efefef;
+    box-sizing: border-box;
+    background: #f8f8f8;
+    margin-left: -260px;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}

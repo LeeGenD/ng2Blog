@@ -1,5 +1,10 @@
 <main>
   <banner></banner>
   <navigator></navigator>
-  <post-item *ngFor="let data of list" [post]="data"></post-item>
+  <div class="body-wrap">
+    <div class="main">
+      <post-item *ngFor="let data of list" [post]="data"></post-item>
+    </div>
+    <div class="side"></div>
+  </div>
 </main>
