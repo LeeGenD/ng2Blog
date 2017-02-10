@@ -15,11 +15,15 @@ div.navigator {
         margin: 0 20px 0 0;
         line-height: 45px;
         list-style: none;
-        transition: color 0.3s;
 
-        &:hover {
-            color: #eee;
-            cursor: pointer
+        a {
+            color: #999;
+            text-decoration: none;
+            transition: color 0.3s;
+            &:hover {
+                color: #eee;
+                cursor: pointer
+            }
         }
     }
 }

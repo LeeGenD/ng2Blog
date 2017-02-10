@@ -3,7 +3,8 @@
   <navigator></navigator>
   <div class="body-wrap">
     <div class="main">
-      <post-item *ngFor="let data of list" [post]="data"></post-item>
+      <router-outlet></router-outlet>
+      <!-- <post-list></post-list> -->
     </div>
     <div class="side">
       <search-bar></search-bar>
