@@ -3,6 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'navigator',
   templateUrl: './navigator.component.html',
-  styleUrls: ['./navigator.component.css']
+  styles: [require('./navigator.component.scss')]
 })
 export class NavigatorComponent { }

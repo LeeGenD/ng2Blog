@@ -5,6 +5,10 @@
     <div class="main">
       <post-item *ngFor="let data of list" [post]="data"></post-item>
     </div>
-    <div class="side"></div>
+    <div class="side">
+      <search-bar></search-bar>
+      <h4>最近评论</h4>
+      <h4>分类</h4>
+    </div>
   </div>
 </main>

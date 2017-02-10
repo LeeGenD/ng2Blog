@@ -1,0 +1,25 @@
+div.navigator {
+    background: #232323;
+    height: 45px;
+    padding: 0 20px;
+
+    li{
+        color: #999;
+        font-family: 'OpenSansbold';
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        float: left;
+        margin: 0 20px 0 0;
+        line-height: 45px;
+        list-style: none;
+        transition: color 0.3s;
+
+        &:hover {
+            color: #eee;
+            cursor: pointer
+        }
+    }
+}

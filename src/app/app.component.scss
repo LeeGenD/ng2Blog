@@ -1,0 +1,41 @@
+main {
+
+}
+.body-wrap {
+    overflow: hidden;
+    border: solid 1px #efefef;
+    width: 90%;
+    margin: 40px auto;
+
+    .main {
+        float: left;
+        margin-right: 300px;
+    }
+
+    .side {
+        float: left;
+        width: 260px;
+        border-left: solid 1px #efefef;
+        box-sizing: border-box;
+        background: #f8f8f8;
+        margin-left: -260px;
+        padding: 20px;
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
+
+        search-bar {
+
+        }
+
+        h4 {
+            color: #999;
+            font-family: 'OpenSansbold';
+            font-size: 12px;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            line-height: 32px;
+            margin-bottom: 16px;
+        }
+    }
+}
